@@ -1,0 +1,65 @@
+﻿@page
+@model EFCore5WebApp.Pages.Reports.PeopleReportModel
+
+@{
+    ViewData["Title"] = "PeopleByState";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>People</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => Model.ReportData.First().LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => Model.ReportData.First().FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => Model.ReportData.First().EmailAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => Model.ReportData.First().Age)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var record in Model.ReportData)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => record.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => record.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => record.EmailAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => record.Age)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{
+    var prevDisabled = !Model.ReportData.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.ReportData.HasNextPage ? "disabled" : "";
+}
+
+<a asp-page="/Reports/PeopleReport"
+   asp-route-pageIndex="@(Model.ReportData.PageIndex - 1)"
+   class="btn btn-primary @prevDisabled">
+    Previous
+</a>
+<a asp-page="/Reports/PeopleReport"
+   asp-route-pageIndex="@(Model.ReportData.PageIndex + 1)"
+   class="btn btn-primary @nextDisabled">
+    Next
+</a>

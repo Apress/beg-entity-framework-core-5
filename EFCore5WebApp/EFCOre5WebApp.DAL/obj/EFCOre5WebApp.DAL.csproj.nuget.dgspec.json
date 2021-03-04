@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vogel\\OneDrive\\Book\\Code\\Chapter20\\EFCore5WebApp\\EFCOre5WebApp.DAL\\EFCOre5WebApp.DAL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vogel\\OneDrive\\Book\\Code\\Chapter20\\EFCore5WebApp\\EFCore5WebApp.Core\\EFCore5WebApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vogel\\OneDrive\\Book\\Code\\Chapter20\\EFCore5WebApp\\EFCore5WebApp.Core\\EFCore5WebApp.Core.csproj",
+        "projectName": "EFCore5WebApp.Core",
+        "projectPath": "C:\\Users\\vogel\\OneDrive\\Book\\Code\\Chapter20\\EFCore5WebApp\\EFCore5WebApp.Core\\EFCore5WebApp.Core.csproj",
+        "packagesPath": "C:\\Users\\vogel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vogel\\OneDrive\\Book\\Code\\Chapter20\\EFCore5WebApp\\EFCore5WebApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vogel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vogel\\OneDrive\\Book\\Code\\Chapter20\\EFCore5WebApp\\EFCOre5WebApp.DAL\\EFCOre5WebApp.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vogel\\OneDrive\\Book\\Code\\Chapter20\\EFCore5WebApp\\EFCOre5WebApp.DAL\\EFCOre5WebApp.DAL.csproj",
+        "projectName": "EFCOre5WebApp.DAL",
+        "projectPath": "C:\\Users\\vogel\\OneDrive\\Book\\Code\\Chapter20\\EFCore5WebApp\\EFCOre5WebApp.DAL\\EFCOre5WebApp.DAL.csproj",
+        "packagesPath": "C:\\Users\\vogel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vogel\\OneDrive\\Book\\Code\\Chapter20\\EFCore5WebApp\\EFCOre5WebApp.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vogel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\vogel\\OneDrive\\Book\\Code\\Chapter20\\EFCore5WebApp\\EFCore5WebApp.Core\\EFCore5WebApp.Core.csproj": {
+                "projectPath": "C:\\Users\\vogel\\OneDrive\\Book\\Code\\Chapter20\\EFCore5WebApp\\EFCore5WebApp.Core\\EFCore5WebApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc.1.20451.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0-rc.1.20451.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-rc.1.20451.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

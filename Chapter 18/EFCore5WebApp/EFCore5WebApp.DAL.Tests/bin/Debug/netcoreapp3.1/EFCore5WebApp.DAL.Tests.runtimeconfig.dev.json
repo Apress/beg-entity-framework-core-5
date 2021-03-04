@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\vogel\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\vogel\\.nuget\\packages"
+    ]
+  }
+}

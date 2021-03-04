@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter21\\EFCore5WebApp\\EFCore5WebApp.Core.Tests\\EFCore5WebApp.Core.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter21\\EFCore5WebApp\\EFCore5WebApp.Core.Tests\\EFCore5WebApp.Core.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter21\\EFCore5WebApp\\EFCore5WebApp.Core.Tests\\EFCore5WebApp.Core.Tests.csproj",
+        "projectName": "EFCore5WebApp.Core.Tests",
+        "projectPath": "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter21\\EFCore5WebApp\\EFCore5WebApp.Core.Tests\\EFCore5WebApp.Core.Tests.csproj",
+        "packagesPath": "C:\\Users\\vogel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter21\\EFCore5WebApp\\EFCore5WebApp.Core.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vogel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter21\\EFCore5WebApp\\EFCore5WebApp.Core\\EFCore5WebApp.Core.csproj": {
+                "projectPath": "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter21\\EFCore5WebApp\\EFCore5WebApp.Core\\EFCore5WebApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.0-preview-20200921-01, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0-alpha.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter21\\EFCore5WebApp\\EFCore5WebApp.Core\\EFCore5WebApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter21\\EFCore5WebApp\\EFCore5WebApp.Core\\EFCore5WebApp.Core.csproj",
+        "projectName": "EFCore5WebApp.Core",
+        "projectPath": "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter21\\EFCore5WebApp\\EFCore5WebApp.Core\\EFCore5WebApp.Core.csproj",
+        "packagesPath": "C:\\Users\\vogel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter21\\EFCore5WebApp\\EFCore5WebApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vogel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

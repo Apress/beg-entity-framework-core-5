@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2a7caceb_002D9a82_002D403b_002Db625_002D122d6262cd45/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UpdateTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A150D66B-6942-4FF6-B864-A62F00AA7675::.NETCoreApp,Version=v5.0::EFCOre5WebApp.DAL.Tests.UpdateTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A150D66B-6942-4FF6-B864-A62F00AA7675::.NETCoreApp,Version=v5.0::EFCOre5WebApp.DAL.Tests.AddTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=deee6895_002D3c8d_002D48cf_002D9af4_002Daa4d8da13326/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="DeletePerson" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A150D66B-6942-4FF6-B864-A62F00AA7675::.NETCoreApp,Version=v5.0::EFCOre5WebApp.DAL.Tests.DeleteTests.DeletePerson&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

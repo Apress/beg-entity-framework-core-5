@@ -1,0 +1,9 @@
+C:\Users\vogel\OneDrive\Book_Revised\Code\Chapter2\EFCore5WebApp\EFCore5WebApp.Core\bin\Debug\netstandard2.0\EFCore5WebApp.Core.deps.json
+C:\Users\vogel\OneDrive\Book_Revised\Code\Chapter2\EFCore5WebApp\EFCore5WebApp.Core\bin\Debug\netstandard2.0\EFCore5WebApp.Core.dll
+C:\Users\vogel\OneDrive\Book_Revised\Code\Chapter2\EFCore5WebApp\EFCore5WebApp.Core\bin\Debug\netstandard2.0\EFCore5WebApp.Core.pdb
+C:\Users\vogel\OneDrive\Book_Revised\Code\Chapter2\EFCore5WebApp\EFCore5WebApp.Core\obj\Debug\netstandard2.0\EFCore5WebApp.Core.csprojAssemblyReference.cache
+C:\Users\vogel\OneDrive\Book_Revised\Code\Chapter2\EFCore5WebApp\EFCore5WebApp.Core\obj\Debug\netstandard2.0\EFCore5WebApp.Core.AssemblyInfoInputs.cache
+C:\Users\vogel\OneDrive\Book_Revised\Code\Chapter2\EFCore5WebApp\EFCore5WebApp.Core\obj\Debug\netstandard2.0\EFCore5WebApp.Core.AssemblyInfo.cs
+C:\Users\vogel\OneDrive\Book_Revised\Code\Chapter2\EFCore5WebApp\EFCore5WebApp.Core\obj\Debug\netstandard2.0\EFCore5WebApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\vogel\OneDrive\Book_Revised\Code\Chapter2\EFCore5WebApp\EFCore5WebApp.Core\obj\Debug\netstandard2.0\EFCore5WebApp.Core.dll
+C:\Users\vogel\OneDrive\Book_Revised\Code\Chapter2\EFCore5WebApp\EFCore5WebApp.Core\obj\Debug\netstandard2.0\EFCore5WebApp.Core.pdb

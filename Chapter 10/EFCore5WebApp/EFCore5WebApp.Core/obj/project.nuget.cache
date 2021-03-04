@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TRLB8U4Apry6pniq0G/nsVJM3D1SOkt6AscYvZHzFXYHAFwtArwM5jjBEa62SXt4M3scdvobJPkkbPfeGiSPCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vogel\\OneDrive\\Book_Revised\\Code\\Chapter10\\EFCore5WebApp\\EFCore5WebApp.Core\\EFCore5WebApp.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vogel\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0-rc.1.20451.14\\system.componentmodel.annotations.5.0.0-rc.1.20451.14.nupkg.sha512"
+  ],
+  "logs": []
+}
